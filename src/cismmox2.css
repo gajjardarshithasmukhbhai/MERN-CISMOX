@@ -1,0 +1,33 @@
+#load_screen{
+            background-color: white;
+            opacity: 1;
+            position: fixed;
+            z-index: 999999;
+            top: 0px;
+            width: 100%;
+            height: 1600px;
+        }
+        #load_screen>#loading{
+            width: 90px;
+            height: 90px;
+            position: absolute;
+            top: 250px;
+            left: 620px;
+            right: 350px;
+            -webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(359deg);
+        }
+}
+.gtr{
+    position: absolute;
+            top: 360px;
+            left: 609px;
+            right: 350px;
+            color: #1461ED;
+}

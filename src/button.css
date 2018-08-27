@@ -1,0 +1,16 @@
+.de1
+{
+    position: absolute;
+    left: 40%;
+    border-radius: 7px 25px;
+    background-color:#F9F8F8;
+    border:2px solid #070DF8;
+    width: 90px;
+    height: 70px;
+}
+.de1:hover
+{
+    background-color:#0623FF;   /*color picker for ctrl+shift+c */
+    color: #FFFFFF;
+}
+        

@@ -1,0 +1,76 @@
+.icon2{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+    #header{
+        background-color: black;
+         width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 90px;
+    }
+    @-webkit-keyframes bounceRight {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+  60% {
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+  }
+}
+@-moz-keyframes bounceRight {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-30px);
+  }
+  60% {
+    transform: translateX(-15px);
+  }
+}
+.dser{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.head{
+  background-color: #565252;
+  width: 590px;
+  height: 90px;
+  opacity: .6;
+}
+.sk {
+    width: 280px;
+    height: 100px;
+    text-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 5px #9CFC12;
+    position: relative;
+    -webkit-animation: mymove 4s infinite;
+    -webkit-animation-delay: 2s;
+    animation: mymove 4s infinite;
+    opacity: 1;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
