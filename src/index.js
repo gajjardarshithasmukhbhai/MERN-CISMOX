@@ -15,6 +15,7 @@ import gmaiil from './cismox_image/gmaiil.png';
 import youtubeheb from './cismox_image/youtubeheb.png';
 import link from './cismox_image/link.png';
 import  'bootstrap/dist/css/bootstrap.min.css';
+import  'bootstrap/dist/css/glyphicon.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import technology from './cismox_image/technology.png';
 import './cismox.css';
