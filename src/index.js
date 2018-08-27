@@ -24,6 +24,7 @@ import './cimsox_upper.css';
 import './text.css'
 import './button.css'
 import './images.css'
+import './tooltip-popover'
 class Navbar extends React.Component{
     render()
     {
@@ -31,8 +32,8 @@ class Navbar extends React.Component{
         <div>
                <nav class="navbar navbar-expand-sm navbar-default bg-white navbar-light nav-tabs fixed-top">
                         <a href="" class="navbar-brand"><span class="font">cismox</span></a>
-                        <button class="navbar-toggler" data-toggle="collapse" data-target="#cl">
-                            <span class="navbar-toggler-icon navbar-toggler-left"></span>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#cl" >
+                            <span class="navbar-toggler-icon navbar-toggler-left active" data-toggle="tooltip" data-title="Menu" data-placement="bottom"></span>
                         </button>
                         <div class="collapse navbar-collapse text-center" id="cl">
                             <span class="mr-auto"></span>
@@ -54,10 +55,10 @@ class Navbar extends React.Component{
                          <br/>
                          <br/>
                          
-                         <img src={icon1} class="icon2 wow zoomIn"/><span class="span" data-target="#pp" data-toggle="collapse">client make website static or dynamic cheapest price</span><br/><br/><br/>
+                         <img src={icon1} class="icon2 wow zoomIn" data-toggle="tooltip" data-title="our company make the cheaper price website" data-placement="bottom" /><span class="span" data-target="#pp" data-toggle="collapse">client make website static or dynamic cheapest price</span><br/><br/><br/>
                         
                        
-                                <p class="alert alert-danger col-sm float-sm-left  header1 collapse" id="pp">
+                                <p class="alert alert-danger col-sm float-sm-left  header1 collapse w-25" id="pp">
                                     (i)static  5,000/- to 10,000/-
                                        <br/>
                                        <br/>
@@ -66,17 +67,20 @@ class Navbar extends React.Component{
                                 </p>
                         
                                                         
-                         <img src={icon2} class="icon2 wow zoomIn"/><span class="span">cismox give 2 month mantainace after delievry website to client</span>
+                         <img src={icon2} class="icon2 wow zoomIn" data-toggle="tooltip" data-title="cismox give the mantainace service" data-placement="bottom"/><span class="span">cismox give 2 month mantainace after delievry website to client</span>
                          <br/><br/><br/>
 
-                         <img src={icon3} class="icon2 wow zoomIn"/><span class="span">24 X 7 customer support</span>
+                         <img src={icon3} class="icon2 wow zoomIn" data-toggle="tooltip" data-title="our helpline 24 X 7 run" data-placement="bottom"/><span class="span">24 X 7 customer support</span>
                     </div>
                 </div>
+
+ 
                 <Image/>
             </div>
                 );
     }
 }
+
 class Image extends React.Component{
     render()
     {
@@ -88,7 +92,7 @@ class Image extends React.Component{
                                         <div class="card-body">
                                             <img src={web} class="img-fluid d-block mx-auto img1"/>
                                             <br/>
-                                            <p class="lead text-center text-capitalize">
+                                            <p class="lead text-center text-capitalize shadow-lg p-4 mb-4 bg-white">
                                                 <b>Our Company Making the Website Like Static and Dynamic both will be Making</b>
                                             </p>
                                             <br/>
@@ -104,7 +108,7 @@ class Image extends React.Component{
                                        <div class="card-body">
                                             <img src={android} class="img-fluid d-block mx-auto img2"/>
                                             <br/>
-                                            <p class="lead text-center text-capitalize">
+                                            <p class="lead text-center text-capitalize shadow-lg p-4 mb-4 bg-white">
                                                 <b>Our Company Making ANDROID App shortly show We take project very shoon</b>
                                             </p>
                                             <br/>
@@ -121,7 +125,7 @@ class Image extends React.Component{
                                        <div class="card-body">
                                             <img src={designing} class="img-fluid d-block mx-auto img2"/>
                                             <br/>
-                                            <p class="lead text-center text-capitalize">
+                                            <p class="lead text-center text-capitalize shadow-lg p-4 mb-4 bg-white">
                                                 <b>Our Company Making the Website Design for Client Requirement
                                                 use the adobe xd and photoshop</b>
                                             </p>
@@ -139,7 +143,7 @@ class Image extends React.Component{
                                           <div class="card-body">
                                             <img src={KDLKLD} class="img-fluid d-block mx-auto img2"/>
                                             <br/>
-                                            <p class="lead text-center text-capitalize">
+                                            <p class="lead text-center text-capitalize shadow-lg p-4 mb-4 bg-white">
                                                 <b>Company staring new working domain it's IOT.we start new business coming soon</b>
                                             </p>
                                             <br/>
