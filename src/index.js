@@ -188,16 +188,16 @@ class Icon extends React.Component{
                     </div>
                     <div class="container">
                      <div class="row">
-                         <div class="col-md-4">
+                         <div class="col-md-4 col-sm-6">
                             <img src={MongoDB} class="mongo"/>
                           </div>
                           
-                          <div class="col-md-4">
+                          <div class="col-md-4 col-sm-6">
                             <img src={reactnative} class="native"/>
                           </div>
                      </div>
+                     
                     <p class="text-capatilize text-center paragraph">Additionally, we build software using: ES6, Redux, Express, Typescript,php,Bootstrap 4,CMS,WORDPRESS,json,RestApi, Gitlab,Firebase,My-SQL</p>
-
                     </div>
 
 
