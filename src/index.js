@@ -16,6 +16,11 @@ import youtubeheb from './cismox_image/youtubeheb.png';
 import link from './cismox_image/link.png';
 import  'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import node from './cismox_image/Group 1.png'
+import react from './cismox_image/React_log.png'
+import MongoDB from './cismox_image/MongoDB.jpg'
+import js from './cismox_image/js.png'
+import reactnative from './cismox_image/reactnative.png'
 import technology from './cismox_image/technology.png';
 import './cismox.css';
 import './cismox1.css';
@@ -155,8 +160,49 @@ class Image extends React.Component{
                                     </div>
                         </div>
                     </div>
+                    <br/><br/><br/><br/>
+                    <p class="lead text-capatilize text-center"><b> OUR SERVICES ARE DRIVEN BY AMAZING TECHNOLOGIES</b></p>
+                    <Icon/>
                 </div>
                             );
+    }
+}
+class Icon extends React.Component{
+    render()
+    {
+        return(
+                <div>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img src={node} class="node"/>
+                        </div>
+                        <div class="col-md-4">
+                            <img src={react} class="react"/>
+                        </div>
+                        <div class="col-md-4">
+                            <img src={js} class="js"/>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                     <div class="row">
+                         <div class="col-md-4">
+                            <img src={MongoDB} class="mongo"/>
+                          </div>
+                          
+                          <div class="col-md-4">
+                            <img src={reactnative} class="native"/>
+                          </div>
+                     </div>
+                    <p class="text-capatilize text-center paragraph">Additionally, we build software using: ES6, Redux, Express, Typescript,php,Bootstrap 4,CMS,WORDPRESS,json,RestApi, Gitlab,Firebase,My-SQL</p>
+
+                    </div>
+
+
+                </div>
+        );
     }
 }
 ReactDOM.render(<Navbar/>,document.getElementById("root"))  

@@ -3,3 +3,73 @@
 	color: white;
 	border: 2px solid #7272DB;
 }
+@media (min-width:320px)  {
+
+	.node{
+		position: absolute;
+		width: 20%;
+		left: 10%;
+	}
+	.react{
+		position: absolute;
+		width: 20%;
+		top: 2px;
+		left: 40%;
+	}
+	.js{
+		position: absolute;
+		top: -18px;
+		width: 30%;
+		left: 60%;
+	}
+	.mongo{
+		position: absolute;
+		top: 70px;
+		width: 30%;
+		left: 14%;
+	}
+	.native{
+		position: absolute;
+		top: 90px;
+		width: 30%;
+		left: 50%;
+	}
+	.paragraph{
+		position: absolute;
+		top: 555%;
+	}
+}
+@media (min-width:1025px) {
+	.node{
+		width: 50%;
+	}
+	.react{
+		position: absolute;
+		width: 50%;
+		left: 30%;
+	}
+	.js{
+		position: absolute;
+		width: 50%;
+		left: 20%;
+	}
+	.mongo{
+		position: absolute;
+		width: 50%;
+		top: 230px;
+		left: 60%;
+	}
+	.paragraph{
+		position: absolute;
+		top: 400%;
+		left: 17%;
+		font-size: 15px;
+
+	}
+	.native{
+		position: absolute;
+		width: 50%;
+		top: 274px;
+		left: 70%;
+	}
+}
