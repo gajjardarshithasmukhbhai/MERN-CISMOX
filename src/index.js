@@ -27,6 +27,7 @@ import './tooltip-popover'
 import Click from './index1.js'
 import Footer from './footer.js'
 
+
 class Navbar extends React.Component{
     render()
     {
@@ -98,8 +99,8 @@ class Image extends React.Component{
                                                 <b>Our Company Making the Website Like Static and Dynamic both will be Making</b>
                                             </p>
                                             <br/>
-                                            <button class="btn de1 ripple">
-                                              <span class="glyphicon glyphicon-ok tree"></span>  click
+                                            <button class="btn de1 ripple"><b>
+                                              <i class="fa fa-check" aria-hidden="true"></i></b>click
                                             </button>
                                         </div>
                                     </div>
@@ -162,7 +163,7 @@ class Image extends React.Component{
                     <Click/>
                     <br/><br/><br/>
                     <p class="lead text-capatilize text-center"><b> OUR SERVICES ARE DRIVEN BY AMAZING TECHNOLOGIES</b></p>          
-                    
+                    <Icon/>
                     <Footer/>
                 </div>
                             );
@@ -175,30 +176,44 @@ class Icon extends React.Component{
                 <div>
                 <div class="container">
                     <div class="row">
-
-                        <div class="col-md-4">
+                        <div class="col-1"></div>
+                        <div class="col-lg-4 col-md-4 col-3">
                             <img src={node} class="node zoom"/>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-3">
                             <img src={react} class="react zoom"/>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-4 col-3">
                             <img src={js} class="js zoom"/>
                         </div>
+                        <div class="col-1"></div>
                     </div>
                     </div>
                     <div class="container">
                      <div class="row">
-                         <div class="col-md-4 col-sm-6">
+                         <div class="col-2">
+                         </div>
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                             <img src={MongoDB} class="mongo zoom"/>
                           </div>
-                          
-                          <div class="col-md-4 col-sm-6">
+                          <div class="col-md-4 col-sm-4 col-4">
                             <img src={reactnative} class="native zoom"/>
                           </div>
-                     </div>          
-                    <p class="lead text-capatilize text-center paragraph"><b>Additionally, we build software using: ES6, Redux, Express, Typescript,php,Bootstrap 4,CMS,WORDPRESS,json,RestApi, Gitlab,Firebase,My-SQL</b></p>
+                          <div class="col-2"></div>
+                     </div>  
+                  </div>
+                  <br/><br/>
+                  <br/><br/>
+                  <br/><br/>
+                  <br/><br/>
+                  <div class="container"> 
+                      <div class="row">
+                      <div class="col-lg-12 col-12">     
+                        <p class="lead text-capatilize text-center"><b>Additionally, we build software using: ES6, Redux, Express, Typescript,php,Bootstrap 4,CMS,WORDPRESS,json,RestApi, Gitlab,Firebase,My-SQL</b></p>
+                        </div>
                     </div>
+                    </div>
+                    <br/>
                 </div>
         );
     }
