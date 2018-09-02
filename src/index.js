@@ -8,12 +8,6 @@ import web from './cismox_image/web.png';
 import android from './cismox_image/android.png';
 import designing from './cismox_image/designing.png';
 import KDLKLD from './cismox_image/KDLKLD.png';
-import dll from './cismox_image/dll.png';
-import SEO from './cismox_image/SEO.png';
-import github from './cismox_image/github.png';
-import gmaiil from './cismox_image/gmaiil.png';
-import youtubeheb from './cismox_image/youtubeheb.png';
-import link from './cismox_image/link.png';
 import  'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import node from './cismox_image/Group 1.png'
@@ -32,6 +26,7 @@ import './images.css'
 import './tooltip-popover'
 import Click from './index1.js'
 import Footer from './footer.js'
+import '../node_modules/bootstrap/dist/css/glyphicon.css'
 class Navbar extends React.Component{
     render()
     {

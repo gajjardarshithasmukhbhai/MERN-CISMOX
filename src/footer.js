@@ -33,7 +33,7 @@ class Footer  extends React.Component{
 						</div>
 						<div class="col-lg-4 col-sm-4 col-md-4">
 						<br/><h3 class="office">Book your project</h3>
-                    <p class="lead text-white text-capitalize"><b><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></b>booking your project you give the 10% advance d given<br/>then after your project start</p>
+                    <p class="lead text-white text-capitalize"><b><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></b>booking your project you give the 20% advanced given<br/>then after your project start</p>
                     
                      <button type="button" class="project smn1 ripple"><b><i class="fa fa-chrome fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Project</b></button>
                 </div>
@@ -49,7 +49,7 @@ class Footer  extends React.Component{
 							<div class="col-lg-4 col-md-4 "></div>
 							<div class="col-lg-4 col-sm-8 col-md-4"><br/>
                     			 <h3 class="office">E-mail</h3>			
-								 <p class="text jk ">cismox.code@gmail.com</p>
+								 <p class="text jk">cismox.code@gmail.com</p>
 							</div>
 						</div>
 					</div>
