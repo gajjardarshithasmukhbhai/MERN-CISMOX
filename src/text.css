@@ -35,10 +35,6 @@
 		width: 70%;
 		left: 50%;
 	}
-	.paragraph{
-		position: absolute;
-		top: 850%;
-	}
 }
 @media (min-width:1025px) {
 	.node{
@@ -60,13 +56,6 @@
 		width: 50%;
 		top: 230px;
 		left: 60%;
-	}
-	.paragraph{
-		position: absolute;
-		top: 400%;
-		left: 17%;
-		font-size: 15px;
-
 	}
 	.native{
 		position: absolute;
