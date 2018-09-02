@@ -30,12 +30,14 @@ import './text.css'
 import './button.css'
 import './images.css'
 import './tooltip-popover'
+import Click from './index1.js'
+import Footer from './footer.js'
 class Navbar extends React.Component{
     render()
     {
         return(
         <div>
-               <nav class="navbar navbar-expand-sm navbar-default bg-white navbar-light nav-tabs fixed-top">
+               <nav class="navbar shadow-lg navbar-expand-sm navbar-default bg-white navbar-light nav-tabs fixed-top">
                         <a href="" class="navbar-brand"><span class="font">cismox</span></a>
                         <button class="navbar-toggler" data-toggle="collapse" data-target="#cl" >
                             <span class="navbar-toggler-icon navbar-toggler-left active" data-toggle="tooltip" data-title="Menu" data-placement="bottom"></span>
@@ -160,9 +162,13 @@ class Image extends React.Component{
                                     </div>
                         </div>
                     </div>
-                    <br/><br/><br/><br/>
-                    <p class="lead text-capatilize text-center"><b> OUR SERVICES ARE DRIVEN BY AMAZING TECHNOLOGIES</b></p>
-                    <Icon/>
+                    <br/>
+                    <br/>
+                    <Click/>
+                    <br/><br/><br/>
+                    <p class="lead text-capatilize text-center"><b> OUR SERVICES ARE DRIVEN BY AMAZING TECHNOLOGIES</b></p>          
+                    
+                    <Footer/>
                 </div>
                             );
     }
@@ -176,31 +182,28 @@ class Icon extends React.Component{
                     <div class="row">
 
                         <div class="col-md-4">
-                            <img src={node} class="node"/>
+                            <img src={node} class="node zoom"/>
                         </div>
                         <div class="col-md-4">
-                            <img src={react} class="react"/>
+                            <img src={react} class="react zoom"/>
                         </div>
                         <div class="col-md-4">
-                            <img src={js} class="js"/>
+                            <img src={js} class="js zoom"/>
                         </div>
                     </div>
                     </div>
                     <div class="container">
                      <div class="row">
                          <div class="col-md-4 col-sm-6">
-                            <img src={MongoDB} class="mongo"/>
+                            <img src={MongoDB} class="mongo zoom"/>
                           </div>
                           
                           <div class="col-md-4 col-sm-6">
-                            <img src={reactnative} class="native"/>
+                            <img src={reactnative} class="native zoom"/>
                           </div>
-                     </div>
-                     
-                    <p class="text-capatilize text-center paragraph">Additionally, we build software using: ES6, Redux, Express, Typescript,php,Bootstrap 4,CMS,WORDPRESS,json,RestApi, Gitlab,Firebase,My-SQL</p>
+                     </div>          
+                    <p class="lead text-capatilize text-center paragraph"><b>Additionally, we build software using: ES6, Redux, Express, Typescript,php,Bootstrap 4,CMS,WORDPRESS,json,RestApi, Gitlab,Firebase,My-SQL</b></p>
                     </div>
-
-
                 </div>
         );
     }

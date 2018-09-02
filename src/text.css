@@ -14,30 +14,30 @@
 	.react{
 		position: absolute;
 		width: 20%;
-		top: 2px;
+		top: 12px;
 		left: 40%;
 	}
 	.js{
 		position: absolute;
-		top: -18px;
+		top: -8px;
 		width: 30%;
 		left: 60%;
 	}
 	.mongo{
 		position: absolute;
-		top: 70px;
+		top: 90px;
 		width: 30%;
 		left: 14%;
 	}
 	.native{
 		position: absolute;
-		top: 90px;
+		top: 108px;
 		width: 30%;
 		left: 50%;
 	}
 	.paragraph{
 		position: absolute;
-		top: 3380px;
+		top: 850%;
 	}
 }
 @media (min-width:1025px) {
