@@ -24,14 +24,14 @@ class Footer  extends React.Component{
 						<div class="container">
 
 					<div class="row">
-						<div class="col-lg-4 col-sm-4"><br/>
+						<div class="col-lg-4 col-sm-4 col-md-4"><br/>
                     		<h3 class="office text-left r">Office</h3>
                     		<p class="lead text-white text-capitalize"><b><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></b>E-204 vinod Tower,shrinath recendency<br/>pajarpol,kadi</p>
                             <p class="lead text-white text-capitalize"><b><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></b>phone number:7984552350</p>
 						</div>
-						<div class="col-lg-4 col-sm-4"><br/>
+						<div class="col-lg-4 col-sm-4 col-md-4"><br/>
 						</div>
-						<div class="col-lg-4 col-sm-4">
+						<div class="col-lg-4 col-sm-4 col-md-4">
 						<br/><h3 class="office">Book your project</h3>
                     <p class="lead text-white text-capitalize"><b><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></b>booking your project you give the 10% advance d given<br/>then after your project start</p>
                     
@@ -42,12 +42,12 @@ class Footer  extends React.Component{
 					<br/>
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-4 col-sm-4">
+							<div class="col-lg-4 col-sm-4 col-md-4">
 								<h3 class="office"> Support & feedback</h3>
 								<p class="lead text-white text-capitalize"><b><i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i></b>you can send feedback and get support via email and otherwise contact our customer care</p>
 							</div>
-							<div class="col-md-4 "></div>
-							<div class="col-lg-4 col-sm-8"><br/>
+							<div class="col-lg-4 col-md-4 "></div>
+							<div class="col-lg-4 col-sm-8 col-md-4"><br/>
                     			 <h3 class="office">E-mail</h3>			
 								 <p class="text jk ">cismox.code@gmail.com</p>
 							</div>
