@@ -26,7 +26,7 @@ import './images.css'
 import './tooltip-popover'
 import Click from './index1.js'
 import Footer from './footer.js'
-import '../node_modules/bootstrap/dist/css/glyphicon.css'
+
 class Navbar extends React.Component{
     render()
     {
