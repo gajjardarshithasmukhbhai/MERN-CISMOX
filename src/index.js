@@ -46,10 +46,10 @@ class Navbar extends React.Component{
                             <span class="mr-auto"></span>
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="#" class="lead text-white btn btn-primary text-capitalize nav-link"><b><span class="glyphicon glyphicon-user"></span>login</b></a>
+                                    <a href="#" class="lead text-white btn btn-primary text-capitalize nav-link"><b><i class="fa fa-user-circle fa-fw" aria-hidden="true"></i>login</b></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="lead btn text-capitalize nav-link"><b>signup</b></a>
+                                    <a href="#" class="lead btn text-capitalize nav-link"><b><i class="fa fa-sign-out" aria-hidden="true"></i>signup</b></a>
                                 </li>
                                 
                             </ul>
