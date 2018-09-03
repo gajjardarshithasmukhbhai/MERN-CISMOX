@@ -1,0 +1,155 @@
+ 
+ @media (min-width:320px){
+	.popup{
+	margin-top: 18%;
+	margin-left: 6%;
+	margin-right: 8%;
+	margin-bottom: 10%;
+    background-color: white;
+    padding-top: 82%;
+    border-radius: 10px;  
+    box-shadow: 2px 2px 2px 2px black;  
+	}
+	.bg{
+ 	background: url('cismox_image/cloud.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 	    height:700px;
+}
+.username{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	border: 2px solid black;
+	color: black;
+	font-size: 25px;
+	outline-color:black;
+}
+.password{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	border: 2px solid black;
+	color: black;
+	font-size: 25px;
+}
+.logo{
+	width: 60%;
+	opacity: .5;
+}
+.google{
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	width: 73%;
+	height: 45px;
+}
+.google:focus{outline:0 !important;}
+.forgot{
+	font-size: 20px;
+	text-align: center;	
+}
+.danger{
+	position: absolute;
+	top: 70%;
+	left: 12%;
+	width: 73%;
+	height: 45px;
+}
+.danger:focus{outline: 0 !important;}
+.G
+{
+	color: white;
+	font-size: 45px;
+	position: absolute;
+	top: -20%;
+	left:-1%;
+}
+.G:focus{outline: 0 !important;}
+ }
+/* Desktops and laptops ----------- */
+ @media only screen 
+ and (min-width : 1224px) {
+ 	.bg{
+ 	background: url('cismox_image/cloud.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 	height: 631px;
+	}
+	.popup{
+	margin-top: 2%;
+	margin-left: 29%;
+	margin-right: 32%;
+	margin-bottom: 20%;
+    background-color: white;
+    padding-top: 29%;
+    border-radius: 10px;  
+    box-shadow: 3px 3px 3px 3px #343030;  
+}
+.username{
+	position: absolute;
+	top: 13%;
+	left: 33%;
+	right: 30%;
+	width: 30%;
+	height: 50px;
+	text-align: center;
+	border: 2px solid black;
+	color: black;
+	font-size: 25px;
+	outline-color:blue;
+}
+.password{
+	position: absolute;
+	top: 30%;
+	left: 33%;
+	right: 30%;
+	width: 30%;
+	height: 50px;
+	text-align: center;
+	border: 2px solid black;
+	color: black;
+	font-size: 25px;
+}
+.logo{
+	width: 60%;
+	opacity: .5;
+	overflow: hidden;
+}
+.google{
+	position: absolute;
+	top: 50%;
+	left: 33%;
+	width: 30%;
+	height: 45px;
+}
+.google:focus{outline:0 !important;}
+.forgot{
+	position: absolute;
+	top: 60%;
+	left: 42%;
+	font-size: 20px;
+}
+.danger{
+	position: absolute;
+	top: 70%;
+	left: 33%;
+	width: 30%;
+	height: 45px;
+}
+.danger:focus{outline: 0 !important;}
+.G
+{
+	color: white;
+	font-size: 45px;
+	position: absolute;
+	top: -20%;
+	left: 2%;
+}
+.G:focus{outline: 0 !important;}
+
+ } 

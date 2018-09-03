@@ -26,8 +26,8 @@ import './images.css'
 import './tooltip-popover'
 import Click from './index1.js'
 import Footer from './footer.js'
-
-
+import Login from './login.js'
+import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
 class Navbar extends React.Component{
     render()
     {
@@ -42,7 +42,7 @@ class Navbar extends React.Component{
                             <span class="mr-auto"></span>
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="#" class="lead text-white btn btn-primary text-capitalize nav-link"><b><i class="fa fa-user-circle fa-fw" aria-hidden="true"></i>login</b></a>
+                                    <Link exact to="/login-cismox" class="lead text-white btn btn-primary text-capitalize nav-link"><b><i class="fa fa-user-circle fa-fw" aria-hidden="true"></i>login</b></Link>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="lead btn text-capitalize nav-link"><b><i class="fa fa-sign-out" aria-hidden="true"></i>signup</b></a>
@@ -218,4 +218,31 @@ class Icon extends React.Component{
         );
     }
 }
-ReactDOM.render(<Navbar/>,document.getElementById("root"))  
+class Dsgs extends React.Component{
+    render()
+    {
+        return(
+                <div>
+                  <h1>chaman</h1>          
+                </div>
+        );
+    }
+}
+class Hjk extends React.Component{
+    render()
+    {
+        return(
+                <div>
+                    <h1>chodu</h1>
+                </div>
+        );
+    }
+}
+ReactDOM.render(
+<Router>
+    <div>
+        <Route exact path="/" component={Navbar}/>
+        <Route exact path="/login-cismox" component={Login}/>
+    </div>
+</Router>
+,document.getElementById("root"))  
