@@ -39,11 +39,7 @@ class Login extends React.Component{
 										<br/>
 										<a class="forgot">forgot password?</a>
 										<br/><br/>
-										<button class="btn btn-block btn-danger">
-											<i class="fa fa-google-plus fa-fw" aria-hidden="true"></i>
-											&nbsp;&nbsp;
-											<b>Login with Google+</b>
-									</button>
+										
 										<img src={icon} class="img-fluid logo"/>
 									</div>
 								<Link to="/" class="btn btn-info click"><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;Back</Link>

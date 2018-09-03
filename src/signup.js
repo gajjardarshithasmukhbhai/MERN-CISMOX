@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import  'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Login from './login.js'
-import './signup.css'
 import './login.css'
 import icon from './cismox_image/jlk.png';
 import '../node_modules/font-awesome/css/font-awesome.min.css'
@@ -46,7 +45,6 @@ class Signup extends React.Component{
 									</button>
 										<img src={icon} class="img-fluid logo"/>
 									</div>
-									
 									<Link to="/" class="btn btn-info click"><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;Back</Link>	
 									</div>
 							</div>
