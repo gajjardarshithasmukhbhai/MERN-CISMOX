@@ -27,6 +27,7 @@ import './tooltip-popover'
 import Click from './index1.js'
 import Footer from './footer.js'
 import Login from './login.js'
+import Signup from './signup.js'
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
 class Navbar extends React.Component{
     render()
@@ -45,7 +46,7 @@ class Navbar extends React.Component{
                                     <Link exact to="/login-cismox" class="lead text-white btn btn-primary text-capitalize nav-link"><b><i class="fa fa-user-circle fa-fw" aria-hidden="true"></i>login</b></Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="lead btn text-capitalize nav-link"><b><i class="fa fa-sign-out" aria-hidden="true"></i>signup</b></a>
+                                    <Link exact to="/sign-up" class="lead btn text-capitalize nav-link"><b><i class="fa fa-sign-out" aria-hidden="true"></i>signup</b></Link>
                                 </li>
                                 
                             </ul>
@@ -243,6 +244,8 @@ ReactDOM.render(
     <div>
         <Route exact path="/" component={Navbar}/>
         <Route exact path="/login-cismox" component={Login}/>
+        <Route exact path="/sign-up" component={Signup}/>
+
     </div>
 </Router>
 ,document.getElementById("root"))  

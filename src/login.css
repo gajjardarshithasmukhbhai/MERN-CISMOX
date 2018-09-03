@@ -1,4 +1,6 @@
- 
+ .mnb{
+		border: 1px solid black;
+ }
  @media (min-width:320px){
 	.popup{
 	margin-top: 18%;
@@ -85,6 +87,7 @@
 		left:30%;
 		width:40%;
 		height:670px;
+		border: 2px solid black;
 	}
 	.popup{
 	margin-top: 2%;
@@ -147,5 +150,10 @@
 	left: 2%;
 }
 .G:focus{outline: 0 !important;}
+.click{
+	position: absolute;
+	top:68%;
+	left:4%;
+}
 
  } 
