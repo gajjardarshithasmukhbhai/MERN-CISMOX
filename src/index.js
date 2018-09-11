@@ -210,7 +210,7 @@ class Icon extends React.Component{
                   <div class="container"> 
                       <div class="row">
                       <div class="col-lg-12 col-12">     
-                        <p class="lead text-capatilize text-center"><b>Additionally, we build software using: ES6, Redux, Express, Typescript,php,Bootstrap 4,CMS,WORDPRESS,json,RestApi, Gitlab,Firebase,My-SQL</b></p>
+                        <p class="lead text-capatilize text-center"><b>Additionally, we build software using: ES6,firebase,Redux, Express, Typescript,php,Bootstrap 4,CMS,WORDPRESS,json,RestApi, Gitlab,Firebase,My-SQL</b></p>
                         </div>
                     </div>
                     </div>
