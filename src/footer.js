@@ -75,7 +75,7 @@ class Footer  extends React.Component{
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12 col-sm-12 d-block m-auto">
-								<h3 class="lk">copyright 2018|all right reserved</h3>
+								<h3 class="lk">copyright 2019|all right reserved</h3>
 							</div>
 						</div>
 					</div>
