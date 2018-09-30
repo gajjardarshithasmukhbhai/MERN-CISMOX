@@ -13,7 +13,6 @@ constructor()
 	this.state={
 		email:"",
 		password:"",
-		button:"",
 	}
 	this.email=this.email.bind(this);
 }
@@ -55,7 +54,7 @@ password=(eve)=>{
 										<br/>
 										<br/>
 										
-										<button type="button" value={this.state.button} disabled={(this.state.email.length&&this.state.password.length)?false:true} onClick={this.active}class="btn btn-block btn-success lead"><i class="fa fa-cogs fa-fw" aria-hidden="true"></i>
+										<button type="button"  disabled={(this.state.email.length&&this.state.password.length)?false:true} onClick={this.active}class="btn btn-block btn-success lead"><i class="fa fa-cogs fa-fw" aria-hidden="true"></i>
 										&nbsp;&nbsp;<b>Login</b></button>
 										<br/>
 										<a class="forgot">forgot password?</a>
